@@ -332,3 +332,34 @@ footer{
     color: burlywood;
     padding: 10px 0;
 }
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        overflow-x: hidden;
+    }
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav a {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+    .container {
+        margin: 0;
+        padding: 10px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    button, input {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
